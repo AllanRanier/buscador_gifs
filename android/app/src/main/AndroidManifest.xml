@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.buscador_gifs">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="buscador_gifs"
         android:name="${applicationName}"
